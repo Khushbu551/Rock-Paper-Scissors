@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b8d355edd3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="scoreboard">
+        <div class="score">
+          <h3>Player</h3>
+          <p id="player-score">0</p>
+        </div>
+        <div class="score">
+          <h3>Computer</h3>
+          <p id="computer-score">0</p>
+        </div>
+      </div>
+
+      <!-- Choices Sections -->
+
+      <div class="choices">
+        <div id="rock" class="choice">
+          <i class="fa-solid fa-hand-fist"></i>
+          <p>Rock</p>
+        </div>
+
+        <div id="paper" class="choice">
+          <i class="fa-solid fa-hand"></i>
+          <p>Paper</p>
+        </div>
+
+        <div id="scissors" class="choice">
+          <i class="fa-solid fa-hand-scissors"></i>
+          <p>Scissors</p>
+        </div>
+      </div>
+
+      <!-- Result Section -->
+
+      <div class="result">
+        <h2 id="result-text">Choose an Option!</h2>
+      </div>
+
+      <!-- Reset Section -->
+      <div class="reset">
+        <button id="play-again">Play Again</button>
+        <button id="reset-score">Reset Score</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
