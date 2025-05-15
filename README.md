@@ -21,6 +21,8 @@ A simple **Rock Paper Scissors game** bilt with **HTML, CSS and JavaScript**. Pl
 5. Click **"Play Again"** to start a new round.
 6. Click **"Reset Score"** to clear the scoreboard.
 
+**Note:** THis project was built for learning purposes to explore and practice [mention technologies]. Security and production-level optimizations are not the primary focus.
+
 ## Preview
 
 ![ Weather App](/pic.png)
